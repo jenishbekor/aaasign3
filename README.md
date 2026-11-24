@@ -4,7 +4,9 @@
 This site was built using [Presentation](https://drive.google.com/).
 
 ## Introduction
-Some **description** to my project
+Some **description** to my project.
+
+Continue with second paragraph.
 
 ## code
 

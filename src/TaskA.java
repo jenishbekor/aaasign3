@@ -4,15 +4,20 @@ public class TaskA {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
 
-        for(int i=a; i<=b; i++) {
-            if( i % 2 == 0)
-                System.out.print(i + " ");
+        long n = in.nextLong();
+
+        int count=0, sum = 0;
+        if(n==0) count=1;
+
+        while( n!=0 ){
+            int d = (int)(n % 10);
+            n = n / 10;
+            count++;
+            sum = sum + d;
         }
-
-
+        System.out.println("Digits = " + count);
+        System.out.println("Sum = " + sum);
     }
 
 }

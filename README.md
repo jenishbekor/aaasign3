@@ -1,7 +1,8 @@
 # Text Analyzing
 
 ### Video and Presentation links
-This site was built using [Presentation](https://drive.google.com/).
+- this is my presentation [Presentation](https://drive.google.com/).
+- This is a video [Video](https://drive.google.com/file/d/16jjSxRWa9j-RAa6qoxuSQRYvS3pOZG0z/view?usp=sharing)
 
 ## Introduction
 Some **description** to my project.

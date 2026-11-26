@@ -4,14 +4,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String name = "Aibek";
-        StringBuilder student = new StringBuilder("Aibek");
+        String text = "Hello";
 
-        String substr = name.substring(2,5);
-        System.out.println(substr);
+        StringBuilder sb = new StringBuilder("Good morning");
+        sb.insert(4, ',');
+        sb.append("!");
 
-        student.delete(0,1);
-        System.out.println(student);
+        sb.setCharAt(0,'g');
+        System.out.println(sb);
+
+        System.out.println( sb.length());
+        System.out.println(sb.capacity());
+
+
 
 
 
